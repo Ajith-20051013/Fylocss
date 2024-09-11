@@ -1,279 +1,312 @@
 
-/* Container1 styling */
-.container{
-    margin: 0;
-    padding: 0;
-    width: 100%; 
+h1{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
 }
 
-/* Navigation bar Img paddings  */
-.nav-bar>img{
+li,a{
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+}
+
+h4,h5{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    min-width: 375px;
+}
+
+.start{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav{
+    display: flex;
+    gap: 70px;
+    padding: 40px;
+    margin-right:50px;
+}
+
+.nav a{
+    text-decoration: none;
+    color: rgb(10, 10, 10);
+}
+
+.logo img{
     padding: 40px;
 }
 
-/* Icon styling */
-img{
-    margin: 10px;
-    padding: 10px;  
-}
 
-/* Navigation bars styling */
-.nav{
-    margin: 0;
-}
-.nav-bar ul{
-    display: flex;
-    gap:20px;
-    list-style: none;
-    justify-content: flex-end;
-    float: right;
-    padding: 30px;
-    margin: 0;
-    cursor: pointer;
-}
-.content{
-    display: flex;
-    padding:0;
-    margin:0;
-}
-.content p{
-    width: 100%;
-    padding: 0;
-    margin: 0;
-}
-.first-form input{
-    margin: 0;
-    padding: 10px;
-    height: 20px;
-}
-.first-form .submit{
-    margin: 10px;
-    height: 43px; 
-    width: 140px;
-    background-color: blue;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-.submit:hover{
-    background-color: rgb(70, 112, 248);
-}
-.image img{
-    width: 100%;
-    padding: 0;
-    margin: 0;
-    display: flex; 
-    min-width: 360px;  
-}
-.info{
-    width: 70%;
-    padding: 30px;
-    margin: 30px;
-}
-.desktop{
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    display: block;
-}
-.mobile{
-    display: none;
-}
-.second-container{
-    background-color:#f8f8fe;
-    margin: 0;
-    padding: 50px;
-    display: flex;
-    
-    
-}
-.content2{
-    padding: 20px;
-}
-.content2 h1{
-    padding-left: 20px;
-}
-.content2 p{
-    padding:10px;
-}
-.content2 img{
-    margin: 0;
-    padding: 0;
-}
-.content2 a{
-    margin: 20px;
-}
-
-.boxcont{
-    margin:10px;
-    padding: 10px;
-    width: 300px;
-    height: 180px;
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: gray 1px 1px 8px;  
-}
-.image3 img{
-    width: 500px;
-    height:500px;
+.start2{
     display: flex;  
 }
 
-.boxcont img{
-    padding: 4px;
-    margin:4px ;
-    width: 20px;
-} 
-.avatar img{
-    height: 70px;
-    width: 70px;
-    border-radius: 50%;
+.content{
+    width: 70%;
+    padding: 40px;
 }
-    
-.avatar {
-    display: flex;
-    
-}
-.avatar-name,h4{
-    padding:0 ;
-    margin: 10px;
-}
-.boxcont p{
-    margin: 0;
-    padding: 0;
-    width: 300px; 
-}
-.third-container{
-    margin: 0;
-    padding: 0;
-    padding: 50px;
-    display: flex;
-    background-color: hsl(238, 22%, 44%);
-}
-.third-container h1,p{
-   padding: 10px;
-   width: 600px;
-   margin:10px
 
+.image1 img{
+    display: flex;
+    width: 90%;
 }
-.second-form input{
-   margin: 30px;
-   width: 300px;
-   padding: 10px;
-   display: flex;
-   margin-right: 40px;
-   border-radius: 4px;
-   border: none;
-   
+
+.mail{
+    padding-top: 10px;
 }
-#submit{
-    margin-left: 30px;
-    width: 140px;
-    padding: 10px;
-    background-color: blue;
+
+.mail input{
+    width: 45%;
+    padding: 12px;
+    border-radius: 3px;
+}
+
+.mail button{
+    width: 40%;
+    padding: 13px;
+    margin: 17px;
     border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-#submit:hover{
-    background-color: rgb(128, 153, 235);
-}
-.content4 ul{
-    margin: 0;
-    
-}
-.content4 img{
-    padding: 0;
-    margin: 0;
-    
-}
-.footer {
-    display: flex;
-    gap: 150px;
-}
-.footer .u1{
-    list-style: none; 
     color: white;
-    justify-content: space-between;
-    width: fit-content;
+    font-weight: 700;
+    background-color: blue;
+    border-radius: 3px;
+}
 
+.curve img{
+    width: 100%;
+    display: block;
 }
-.fourth-container{
-    padding: 50px;
-    background-color: hsl(244, 62%, 14%);
-  
+
+.main2{
+    display: flex;
+    padding: 20px;
+    background-color:#f8f8fe;
 }
-.fourth-container>img{
-    width:100px;
-    height: 50px;
-    margin: 0;
+
+.content2{
+    width: 70%;
     padding: 20px;
 }
-.footer-info{
-  display: flex;  
-}
-.u1 li{
-    padding: 10px; 
-    cursor: pointer;
-}
-.u1 li:hover{
-    color: hsl(242, 38%, 63%);
+
+.content2 a{
+    color: rgb(0, 128, 107);
 }
 
-.foot-mobile a{
-    text-decoration: none; 
+.image2 img{
+    display: flex;
+    width: 90%;
+    margin-top: 60px;
+}
+
+.card{
+    width: 60%;
+    height: 40%;
+    box-shadow: 1px 1px 5px;
+    margin-top: 40px;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: white;
+}
+
+.avatar img{
+    border-radius: 100%;
+    width:40px;
+    padding: 5px;
+}
+
+.card-profile{
+    display: flex;  
+    gap: 10px; 
+    padding: 10px;
+}
+
+.profile h4,h5{
+    margin: 7px;
+}
+
+.main3{
+    display: flex;
+    padding: 20px;
+    background-color: hsl(238, 22%, 44%);
+}
+
+.content3{
+    width: 40%;
+    padding: 30px;
     color: white;
-    width: 200px;
+}
+
+.email2{
+    padding: 30px;
+    display: flex;
+    justify-content: end;
+}
+
+.email2 input{
+    width: 100%;
+    padding: 12px;
+    margin-top: 27px;
+    border-radius: 3px;
+    border: none;
+}
+
+.email2 button{
+    margin-top: 20px;
+    width: 50%;
+    padding: 10px;
+    background-color: hsl(224, 93%, 58%);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-weight: 700;
+}
+
+.footer{
+    background-color: hsl(243, 87%, 12%);
+    color: white;
+    padding: 40px;
+}
+
+.contact a{
+    color: white;
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+.footer{
+    background-color: hsl(243, 87%, 12%);
+    /* padding: 8px; */
+}
+
+.contact{
+    display: flex;
+    justify-content:space-between;
+    padding: 8px;
+}
+
+.list1 li{
+    padding: 8px;
+}
+
+.list2 li{
+    padding: 8px;
+}
+
+.social{
+    display: flex;
+    gap: 60px;
+    margin-top: 20px;
     
 }
-.foot-mobile {
-    list-style: none;
-    padding: 0;
-    margin:0;
-    gap: 10px;
+
+.contact li{
+    padding: 8px;
 }
-.icons i{
-    margin-left: 10px;
-    cursor: pointer;
-    
+
+ul{
+    padding-inline-start: 0;
 }
-.icons li{
-    color: rgb(248, 245, 245);
-    list-style: none;
+
+.contact img{
+    margin-right: 20px;
 }
-.icons i:hover{
-    color: hsl(242, 38%, 63%);
-}
-.foot-mobile img{
-    margin-right: 10px;
-}
-.foot-mobile li{
-    padding:10px;
-}
-@media(max-width:425px){
+
+
+
+/* Mediaqueries */
+
+@media (max-width:450px){
+
+    .logo{
+        width: 80%;
+    }
+    .logo2{
+        width: 8
+        50%;
+        color: aliceblue;
+
+
+    }
+
+
+    .nav{  
+        gap:30px;
+        margin-left: 20px;
+        font-size: 14px;
+    }
+
+    .start{
+        width: 100%;
+    }
+
+    .start2{
+        flex-direction: column-reverse;
+    }
+
     .content{
-        flex-flow: column-reverse;
+        text-align: center;   
     }
-    .img{
-        display:none;
+
+    .image1 img{  
+        width: 80%;
     }
-    .desktop{
-        display: none;
+
+    .main2{
+        flex-direction: column-reverse;
     }
-    .mobile{
-        display: ruby;
-        display: block;
+
+    .content2{
+        text-align: center;
+        width: 90%;
     }
-    .second-container{
-        flex-wrap:wrap-reverse;
+
+    .card{
+        width: 80%;
     }
-    .info h1,p{
-       width: 100%;
+
+    .main3{
+        flex-direction: column;
+    }
+
+    .content3{
+        text-align: center;
+        width: 80%;
+    }
+
+    .footer .contact{
+        flex-direction: column;
+    }
+
+    .user-email input{
+        width: 89%;   
+        margin-left: 18px;
+    }
+
+    .user-email button{
+        width: 100%;
+    }
+
+    .email2 input{
+        width: 91%;
+    }
+
+    .email2 button{
+        width: 100%;
+    }
+
+    .contact{
+        width: 100%;
+    }
+
+    .social{
+        justify-content: center;
+    }
 }
-}
-
-
-
-
-
-
